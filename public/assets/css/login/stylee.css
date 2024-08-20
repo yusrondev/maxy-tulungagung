@@ -1,0 +1,63 @@
+.main{
+    width: 350px;
+    height: 550px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 20px;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+.logo{
+    width: 140px;
+    height: 140px;
+    margin: -50px 75px;
+    border-radius: 50%;
+}
+
+.title{
+    text-align: center;
+    font-size: 28px;
+    color: #555;
+    letter-spacing: 5px;
+    margin: 35px;
+}
+
+.credentials{
+    width: 100%;
+    padding: 2px 5px 0px 5px;
+}
+
+.credentials input{
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px 5px;
+    letter-spacing: 1px;
+}
+
+.username{
+    margin-bottom: 20px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+
+.username:hover{
+    border-bottom: 3px solid #03a1fc;
+}
+
+.password{
+    margin-bottom: 30px;
+    border-bottom: 2px solid #c2c4c3;
+    transition: .5s ease;
+}
+
+.password:hover{
+    border-bottom: 3px solid #03a1fc;
+}
+
+.submit:hover{
+    background-position: right;
+}
