@@ -585,8 +585,8 @@
                     $('.item-text').css('color', values.username_color);
                 }
                 if (values.logo !== previousValues.logo) {
-                    $('.img-logo').attr('src', "{{ asset('/assets/image_content/') }}" + values.logo);
-                    $('.img_icon').attr('src', "{{ asset('/assets/image_content/') }}" + values.logo);
+                    $('.img-logo').attr('src', "{{ asset('/assets/image_content') }}" + "/" + values.logo);
+                    $('.img_icon').attr('src', "{{ asset('/assets/image_content') }}" + "/" + values.logo);
                 }
                 if (values.primary_color !== previousValues.primary_color) {
                     $('.alert-name-section').css('background-color', values.primary_color);
